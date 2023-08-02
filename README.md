@@ -1,7 +1,6 @@
 # ImageProcessor2023-rework
 
-Supported Operations
-The library supports the following image processing operations:
+Supported operations the library supports the following image processing operations:
 
 Multiply: Multiply two TGA images pixel by pixel.
 Subtract: Subtract one TGA image from another pixel by pixel.
@@ -72,5 +71,5 @@ To perform image processing operations, you can call the relevant functions prov
     }
 
 
-Please note that the library assumes the TGA images are in 24-bit format (8 bits per channel for red, green, and blue) and uses the image struct to represent the image data.
+* note that the library assumes the TGA images are in 24-bit format (8 bits per channel for red, green, and blue) and uses the image struct to represent the image data.
 
