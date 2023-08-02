@@ -1,8 +1,5 @@
 # ImageProcessor2023-rework
 
-TGA Image Processing Library
-
-
 Supported Operations
 The library supports the following image processing operations:
 
@@ -21,10 +18,6 @@ Combine: Combine three TGA images (red, green, and blue channels) into a single 
 Reading and Writing TGA Images
 The library provides two functions, read() and write(), to read and write TGA images, respectively. Here's an example of how to use these functions:
 
-
-#include "pixelhead.h"
-#include <iostream>
-#include <fstream>
 
 int main() {
     //Open input and output file streams
@@ -51,9 +44,6 @@ Performing Image Processing Operations
 
 To perform image processing operations, you can call the relevant functions provided by the library. For example, to multiply two images:
 
-#include "pixelhead.h"
-#include <iostream>
-#include <fstream>
 
 int main() {
     //open input file streams
